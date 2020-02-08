@@ -1,16 +1,6 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 100uF
-D Unpolarized capacitor
-K capacitor cap
-$ENDCMP
-#
-$CMP C_0201
-D Unpolarized capacitor
-K capacitor cap
-$ENDCMP
-#
-$CMP C_0402
+$CMP C_0603
 D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
@@ -30,12 +20,12 @@ D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
 #
-$CMP C_10nF
+$CMP C_100uF
 D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
 #
-$CMP C_10pF
+$CMP C_10nF
 D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
@@ -46,11 +36,6 @@ K capacitor cap
 $ENDCMP
 #
 $CMP C_1206
-D Unpolarized capacitor
-K capacitor cap
-$ENDCMP
-#
-$CMP C_1nF
 D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
@@ -71,6 +56,11 @@ K capacitor cap
 $ENDCMP
 #
 $CMP C_30pF
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
+$CMP C_330nF
 D Unpolarized capacitor
 K capacitor cap
 $ENDCMP
@@ -120,17 +110,11 @@ D Light emitting diode
 K LED diode light-emitting-diode
 $ENDCMP
 #
+$CMP MIC2545A
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2545a.pdf
+$ENDCMP
+#
 $CMP R_0
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_0201
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_0402
 D Resistor
 K resistor
 $ENDCMP
@@ -140,7 +124,42 @@ D Resistor
 K resistor
 $ENDCMP
 #
+$CMP R_0805
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_100
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_100K
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_10K
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_120
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_120K
+D Resistor
+K resistor
+$ENDCMP
+#
 $CMP R_1K
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_1M
 D Resistor
 K resistor
 $ENDCMP
@@ -160,31 +179,6 @@ D Resistor
 K resistor
 $ENDCMP
 #
-$CMP R_25K
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_2K
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_3.01K
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_3.3K
-D Resistor
-K resistor
-$ENDCMP
-#
-$CMP R_3K
-D Resistor
-K resistor
-$ENDCMP
-#
 $CMP R_4.7K
 D Resistor
 K resistor
@@ -200,7 +194,12 @@ D Resistor
 K resistor
 $ENDCMP
 #
-$CMP R_51.1K
+$CMP R_499K
+D Resistor
+K resistor
+$ENDCMP
+#
+$CMP R_60.4
 D Resistor
 K resistor
 $ENDCMP
